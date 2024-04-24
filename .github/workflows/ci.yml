@@ -15,7 +15,7 @@ jobs:
       - name: Checkout Bucket
         uses: actions/checkout@v2
         with:
-          repository: 'haukuen/endless'
+          repository: "haukuen/endless"
           fetch-depth: 2
           path: "endless"
       - name: Checkout Scoop
@@ -42,7 +42,7 @@ jobs:
       - name: Checkout Bucket
         uses: actions/checkout@v2
         with:
-          repository: 'haukuen/endless'
+          repository: "haukuen/endless"
           fetch-depth: 2
           path: "endless"
       - name: Checkout Scoop
@@ -61,4 +61,3 @@ jobs:
         run: |
           $env:SCOOP_HOME="$(Resolve-Path '.\scoop_core')"
           .\endless\bin\test.ps1
-          

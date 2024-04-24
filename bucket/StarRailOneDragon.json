@@ -1,5 +1,5 @@
 {
-    "version": "1.2.5",
+    "version": "1.2.4",
     "description": "崩坏：星穹铁道 - 一条龙",
     "homepage": "https://github.com/DoctorReid/StarRailOneDragon",
     "license": "GPL-3.0-only",
@@ -10,7 +10,12 @@
             "StarRailOneDragon"
         ]
     ],
-    "url": "https://github.com/DoctorReid/StarRailOneDragon/releases/download/v1.2.4/StarRailOneDragon-v1.2.4.zip",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/DoctorReid/StarRailOneDragon/releases/download/v1.2.4/StarRailOneDragon-v1.2.4.zip",
+            "hash": "0e60184c4901addeddc82f981cfce4a4d7f088dd16ee33491e829981cac56669"
+        }
+    },
     "checkver": {
         "url": "https://github.com/DoctorReid/StarRailOneDragon/releases/latest",
         "regex": "Release ([\\d.]+)"

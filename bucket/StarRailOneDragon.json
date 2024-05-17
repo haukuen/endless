@@ -16,14 +16,11 @@
             "hash": "d2ed233f5c0bf306ba91d4c036cddaa46050fcec68c62bce547c183aaaf025fb"
         }
     },
-    "checkver": {
-        "url": "https://github.com/DoctorReid/StarRailOneDragon/releases/latest",
-        "regex": "Release ([\\d.]+)"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/DoctorReid/StarRailOneDragon/releases/download/v$version/StarRailOneDragon-v$version.zip"
+                "url": "https://github.com/DoctorReid/StarRailOneDragon/releases/download/$version/StarRailOneDragon-$version.zip"
             }
         }
     }

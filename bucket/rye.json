@@ -1,7 +1,7 @@
 {
     "version": "0.36.0",
-    "description": "An experimental package management solution for Python",
-    "homepage": "https://rye-up.com/",
+    "description": "工位电脑的scoop有bug所以维护一份专用rye，路径是写死的请勿下载",
+    "homepage": "https://rye.astral.sh/",
     "license": "MIT",
     "suggest": {
         "vcredist": "extras/vcredist2022"

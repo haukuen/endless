@@ -13,6 +13,12 @@
             "hash": "f1a16c85168810b2f686c7e32091947813ff18364a73814798a52f4aa10ccc1c"
         }
     },
+    "shortcuts": [
+        [
+            "taierspeed-cli.exe",
+            "taierspeed-cli"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "architecture": {

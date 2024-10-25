@@ -23,8 +23,7 @@
     ],
     "persist": "profile",
     "checkver": {
-        "github": "https://github.com/c0re100/qBittorrent-Enhanced-Edition",
-        "regex": "releases/tag/release-([\\d.]+)"
+        "github": "https://github.com/c0re100/qBittorrent-Enhanced-Edition"
     },
     "autoupdate": {
         "architecture": {

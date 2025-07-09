@@ -13,13 +13,13 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Checkout Bucket
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           repository: "haukuen/endless"
           fetch-depth: 2
           path: "endless"
       - name: Checkout Scoop
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           repository: ScoopInstaller/Scoop
           ref: develop
@@ -40,13 +40,13 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Checkout Bucket
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           repository: "haukuen/endless"
           fetch-depth: 2
           path: "endless"
       - name: Checkout Scoop
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           repository: ScoopInstaller/Scoop
           ref: develop

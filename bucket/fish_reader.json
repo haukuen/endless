@@ -7,7 +7,7 @@
             "extract_dir": "fish_reader_0.4.1"
         }
     },
-    "bin": "fish_reader-v$version-windows-x64.exe",
+    "bin": "fr.exe",
     "homepage": "https://github.com/haukuen/fish_reader",
     "license": "MIT",
     "checkver": "github",

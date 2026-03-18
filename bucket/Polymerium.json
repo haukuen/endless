@@ -9,6 +9,5 @@
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/d3ara1n/Polymerium/releases/download/v$version/Polymerium-win-Portable.zip"
-    },
-    "extract_dir": "Polymerium-win-Portable"
+    }
 }
